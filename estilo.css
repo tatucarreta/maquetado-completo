@@ -1,0 +1,12 @@
+body{
+    background-color: darkgray;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 1,5rem;
+}
+p{
+    font-size: 2rem;
+    font-weight: 3px;
+}

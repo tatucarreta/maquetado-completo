@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="bg-dark p-3">
+        <div class="p-2">
+            <h1>Maquinaria agropecuaria</h1>
+            <!--nav-->
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Productos</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./jhondeere1.html">Jhon Deere</a></li>
+                    <li><a class="dropdown-item" href="./jhondeere2.html">Jhon Deere</a></li>
+                    <li><a class="dropdown-item" href="./jhondeere3.html">Jhon Deere</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./proveedores.html">proveedores</a>
+                </li>
+              </ul>
+        </div>
+    </header>
+    <main class="p-3">
+      <!-- carrusel de imagenes -->
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imagenes/2517054.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/tractor.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/tractores-medianos.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+          <!-- texto introductorio -->
+          <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt commodi odio vitae dignissimos eligendi numquam pariatur asperiores reiciendis sequi veniam. Ducimus reiciendis ipsam voluptatum, libero perferendis ratione ex aperiam neque tempore rerum maxime tempora quia voluptatem alias corrupti nisi blanditiis sequi id iusto deserunt ullam nam. Totam ipsam maxime cumque deleniti eos nisi fugit. Facilis vero optio voluptate tenetur porro nulla excepturi aliquid fuga deleniti, molestiae mollitia obcaecati cupiditate tempora voluptas aperiam, unde ad quod reiciendis accusamus odio, debitis illum atque rerum ut! Itaque sed quisquam soluta? Eum quas dolores, accusamus vel cum porro ab. Blanditiis necessitatibus laboriosam accusantium illo!
+          </p>
+          <!-- cartas con los distintos productos -->
+          <hr class="bg-dark p-3">
+          <div class="container">
+            <div class="row row-cols-3 align-items-center">
+                <div class="card m-5" style="width: 18rem;">
+                    <img src="./imagenes/AmericanAgro_RC1304_Home.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">AmericanAgro_RC1304</h5>
+                    <a href="./jhondeere1.html" class="btn btn-primary">ir a la pagina</a>
+                    </div>
+                </div>
+                <div class="card m-5" style="width: 18rem;">
+                    <img src="./imagenes/American-Agro_RS1504_2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">American-Agro_RS1504</h5>
+                    <a href="./jhondeere2.html" class="btn btn-primary">ir a la pagina</a>
+                    </div>
+                </div>
+                <div class="card m-5" style="width: 18rem;">
+                    <img src="./imagenes/WhatsApp-Image-2020-10-13-at-12.10.34-1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">RC1004</h5>
+                    <a href="./jhondeere3.html" class="btn btn-primary">ir a la pagina</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-success p-2">
+        Projecto Boostrap
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
